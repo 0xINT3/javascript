@@ -1,0 +1,18 @@
+<!doctype html>
+<html>
+	<body id = "body">
+		<p>
+			<label>Background: </label>
+			<select onchange = "changeBG(this)">
+   				<option value = "red">Red</option>
+   				<option value = "blue">Blue</option>
+    			<option value = "green">Green</option>
+    		</select>
+		</p> 
+		<script>
+			function changeBG(x){
+			var body = document.getElementById('body');
+    		body.style.backgroundColor = x.value;}      
+		</script>
+	</body>
+</html>
